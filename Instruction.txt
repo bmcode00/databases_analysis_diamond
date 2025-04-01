@@ -1,0 +1,15 @@
+Instruction
+
+The entire analysis has been prepared for the Linux system (it does not work on Windows).
+
+1. Download files and then run the script - db_analysis.py (this is the main script).
+This can be done, for example, by moving the db_analysis.py script to the desktop and then using the command python3 ~/Desktop/db_analysis.py.
+
+2. The program will run. Check if diamond, RStudio, and the required libraries are installed (option 1, if not, the program will install them).
+
+3. During the first analysis, you should select the options one by one, as most of them require previous steps to function.
+
+4. After checking diamond, RStudio, and libraries, create the folders (option 2) paste the sequence files downloaded from databases (filename: e.g., APD) into the Sequences_db subfolder.
+Then, paste the functions (clean_fasta.py, convert_to_dmnd.py, run_diamond_comparison.py, DAIRId_IDAIRId.py, and visualize_rstudio.R) into the Function subfolder.
+
+5. The option for calculating DAIRId and IDAIRId will be added in the near future.
